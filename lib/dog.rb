@@ -1,21 +1,20 @@
 class Dog 
-  attr_accessor :puppy, :name
+  attr_accessor :name
   @@all = []
-  def initialize(puppy)
-    self.puppy
+  def initialize(name)
     @@all << self
+    @name = name
     end 
   #def name 
   # @name = "Pluto"
   #end 
   def self.all 
-    puts @@all
     end 
   def self.print_all
     dogList = @@all 
-    dogList.each do |puppy| 
-      puts "#{puppy}"
-      "#{puppy}"
+    dogList.each do |name| 
+      puts "#{name}"
+      "#{name}"
     end 
   end 
     
