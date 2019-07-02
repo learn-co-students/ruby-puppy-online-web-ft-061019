@@ -5,9 +5,6 @@ class Dog
     @@all << self
     @name = name
     end 
-  #def name 
-  # @name = "Pluto"
-  #end 
   def self.all 
     end 
   def self.print_all
