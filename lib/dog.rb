@@ -6,7 +6,7 @@ class Dog
     @@all << self
     end 
   #def name 
-   @name = "Pluto"
+  # @name = "Pluto"
   #end 
   def self.all 
     puts @@all
